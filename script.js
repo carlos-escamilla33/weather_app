@@ -1,4 +1,5 @@
 const locationForm = document.querySelector(".location-form");
+const switchInput = document.querySelector(".temp-input");
 
 async function getWeatherInfo(location) {
   try {
